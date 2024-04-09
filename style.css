@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --colo:white;
+}
+.box{
+    background-color: pink;
+    height: 100vh;
+    width: 100vw;
+}
+ .header{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    line-height:- 30%;
+    
+
+ }
+
+ span{
+    color:var(--colo);
+    font-weight: bold;
+    font-size: 40px;
+    /* display: flex; */
+    
+ }
+ .link li a{
+    color: var(--colo);
+    text-decoration: none;
+
+    
+  }
+  .link {
+     /* display: flex; */
+     /* display: inline; */
+    /* align-content: center; */
+    /* flex-direction: row;  */
+    /* line-height: 50%; */
+    justify-content: flex-end; 
+    
+  }
